@@ -12,7 +12,7 @@ const Login = () => {
       <Card className="login-container">
         <img className="login-logo" src={logo} alt="" />
         {/* 登录表单 */}
-        <Form onFinish={onFinish} validateTrigger="onBlur">
+        <Form onFinish={onFinish}  validateTrigger="onBlur">
           <Form.Item
           name= "mobile"
           rules={[
